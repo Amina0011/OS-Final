@@ -24,14 +24,14 @@ mini Docker project
 
 5. creating the tables (one example)
 
-` CREATE TABLE Timetable (
+   `CREATE TABLE Timetable (
     course_id SERIAL PRIMARY KEY,
     course_name VARCHAR(255),
     day VARCHAR(50),
     time VARCHAR(50),
     room VARCHAR(50),
     level INT
-);`  
+   );`  
 
 6. creating and activating the virtual environment
    
