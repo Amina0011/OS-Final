@@ -33,29 +33,29 @@ mini Docker project
 );`  
 9. creating and activating the virtual environment
    
-   `python -m venv venv`
+      `python -m venv venv`
    
-   `source venv/bin/activate`
+      `source venv/bin/activate`
 
 10. installing the pg8000 and creating necessary files
 
-   `pip install flask pg8000`
+      `pip install flask pg8000`
    
-   `nano app.py`
+      `nano app.py`
    
-   `mkdir tempaltes`
+      `mkdir tempaltes`
    
-   `touch ./templates/index.html`
+      `touch ./templates/index.html`
    
-   `touch ./templates/timetable.html`
+      `touch ./templates/timetable.html`
 
 12. running the application
 
-   `python app.py`  #inside the final project where app.py  is located
+      `python app.py`  #inside the final project where app.py  is located
 
 14. accessing the website
 
-   `http://127.0.0.1:5000/`
+      `http://127.0.0.1:5000/`
    
 
 
